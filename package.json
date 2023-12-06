@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.23.3",
-    "babel": "^6.23.0",
     "dayjs": "^1.11.10",
     "inquirer": "^8.2.4",
     "is-css3-color": "^1.0.0"
