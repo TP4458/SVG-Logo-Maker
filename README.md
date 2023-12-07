@@ -30,8 +30,14 @@ Because this application won't be deployed, please view the attached video demon
     > </br>
     >[https://github.com/TP4458/SVG-Logo-Maker/archive/refs/heads/main.zip](https://github.com/TP4458/SVG-Logo-Maker/archive/refs/heads/main.zip)
 * Navigate to the folder containing the files using your CLI.
-* Run npm install
-* Run node index.js
+* Run npm install.
+* Run node index.js.
+
+This application makes use of the following Node modules:
+* Inquirer - For creating the prompts.
+* is-css3-color - for validating color keywords, hex values and HSL values.
+* @babel/plugin-transform-modules-commonjs - this plugin transforms ECMAScript modules to CommonJS for Jest compatibility.
+* Jest - testing.
 
 ## Usage
 On starting the application user will be met wit a series or prompts:
